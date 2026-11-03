@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "github.com/messenger/protos";
+
+service Auth {
+  rpc Register (RegisterRequest) returns (RegisterResponse);
+  rpc Login (LoginRequest) returns (LoginResponse);
+}
+
+message RegisterRequest {
+  string username = 1;
+  string email = 2;
+  string password = 3;
+
+}
+
+message RegisterResponse {
+  int64 id = 1;
+  string access_token = 2;
+  string refresh_token = 3;
+}
+
+message LoginRequest{
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse{
+  int64 id = 1;
+  string access_token = 2;
+  string refresh_token = 3;
+}
