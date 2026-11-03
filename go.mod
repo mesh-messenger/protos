@@ -1,4 +1,4 @@
-module github.com/messenger/protos
+module github.com/mesh-messenger/protos
 
 go 1.26.1
 
