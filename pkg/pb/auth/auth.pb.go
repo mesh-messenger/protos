@@ -276,7 +276,7 @@ const file_auth_proto_rawDesc = "" +
 	"\rrefresh_token\x18\x03 \x01(\tR\frefreshToken2o\n" +
 	"\x04Auth\x127\n" +
 	"\bRegister\x12\x14.api.RegisterRequest\x1a\x15.api.RegisterResponse\x12.\n" +
-	"\x05Login\x12\x11.api.LoginRequest\x1a\x12.api.LoginResponseB\x1dZ\x1bgithub.com/messenger/protosb\x06proto3"
+	"\x05Login\x12\x11.api.LoginRequest\x1a\x12.api.LoginResponseB\"Z github.com/mesh-messenger/protosb\x06proto3"
 
 var (
 	file_auth_proto_rawDescOnce sync.Once

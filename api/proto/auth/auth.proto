@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package api;
 
-option go_package = "github.com/messenger/protos";
+option go_package = "github.com/mesh-messenger/protos";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
